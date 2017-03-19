@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<FontIcon
+  color="#FFFFFF"
+  icon="users2"
+  size="35px"
+  style={
+    Object {
+      "backgroundColor": "mediumvioletred",
+      "padding": "10px",
+    }
+  }
+>
+  <span
+    className="icon-users2"
+    style={
+      Object {
+        "backgroundColor": "mediumvioletred",
+        "color": "#FFFFFF",
+        "fontSize": "35px",
+        "padding": "10px",
+      }
+    }
+  />
+</FontIcon>
+`;
