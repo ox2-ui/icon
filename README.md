@@ -17,9 +17,9 @@ yarn add @ox2/icon
 
 ## Usage
 ```js
-import Icon from '@ox2/icon/Icon';
+import FontIcon from '@ox2/icon/FontIcon';
 
-<Icon icon="calendar" />
+<FontIcon icon="calendar" />
 
 ```
 

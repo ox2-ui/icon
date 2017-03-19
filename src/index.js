@@ -1,1 +1,1 @@
-export Icon from './Icon';
+export FontIcon from './FontIcon';
