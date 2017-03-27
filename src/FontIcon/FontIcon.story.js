@@ -3,9 +3,15 @@ import { storiesOf } from '@kadira/storybook';
 import FontIcon from './FontIcon';
 
 storiesOf('FontIcon', module)
-  .add('default', () => <FontIcon group="module" icon="users2" />)
+  .add('default', () => (
+    <FontIcon group="module" icon="users2" />
+  ))
   .add('colored', () => (
-    <FontIcon color="#2CAF65" group="module" icon="users2" />
+    <FontIcon
+      color="#2CAF65"
+      group="module"
+      icon="users2"
+    />
   ))
   .add('colored & large', () => (
     <FontIcon

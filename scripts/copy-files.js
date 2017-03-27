@@ -4,7 +4,8 @@ import fse from 'fs-extra';
 
 const files = ['README.md', 'CHANGELOG.md', 'LICENSE'];
 
-Promise.all(files.map(file => copyFile(file))).then(() => createPackageFile());
+Promise.all(files.map(file => copyFile(file))).then(() =>
+  createPackageFile());
 
 function copyFile(file) {
   const buildPath = resolveBuildPath(file);
@@ -13,11 +14,16 @@ function copyFile(file) {
       if (err) throw err;
       resolve();
     });
-  }).then(() => console.log(`Copied ${file} to ${buildPath}`));
+  }).then(() =>
+    console.log(`Copied ${file} to ${buildPath}`));
 }
 
 function resolveBuildPath(file) {
-  return path.resolve(__dirname, '../build/', path.basename(file));
+  return path.resolve(
+    __dirname,
+    '../build/',
+    path.basename(file),
+  );
 }
 
 function createPackageFile() {
@@ -67,11 +73,20 @@ function createPackageFile() {
       };
 
       return new Promise(resolve => {
-        const buildPath = path.resolve(__dirname, '../build/package.json');
-        const data = JSON.stringify(minimalPackage, null, 2);
+        const buildPath = path.resolve(
+          __dirname,
+          '../build/package.json',
+        );
+        const data = JSON.stringify(
+          minimalPackage,
+          null,
+          2,
+        );
         fse.writeFile(buildPath, data, err => {
           if (err) throw err;
-          console.log(`Created package.json in ${buildPath}`);
+          console.log(
+            `Created package.json in ${buildPath}`,
+          );
           resolve();
         });
       });

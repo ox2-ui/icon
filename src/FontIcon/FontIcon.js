@@ -15,14 +15,23 @@ const FontIcon = props => {
     ...other
   } = props;
 
-  const className = classNames(`icon-${group}\:${icon}`, classNameProp);
+  const className = classNames(
+    `icon-${group}\:${icon}`,
+    classNameProp,
+  );
 
   const mergedStyles = {
     ...{ fontSize: size, color: color },
     ...style,
   };
 
-  return <span className={className} style={mergedStyles} {...other} />;
+  return (
+    <span
+      className={className}
+      style={mergedStyles}
+      {...other}
+    />
+  );
 };
 
 FontIcon.defaultProps = {
