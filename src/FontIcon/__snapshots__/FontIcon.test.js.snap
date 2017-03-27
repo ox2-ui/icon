@@ -3,6 +3,7 @@
 exports[`renders correctly 1`] = `
 <FontIcon
   color="#FFFFFF"
+  group="module"
   icon="users2"
   size="35px"
   style={
@@ -13,7 +14,7 @@ exports[`renders correctly 1`] = `
   }
 >
   <span
-    className="icon-users2"
+    className="icon-module:users2"
     style={
       Object {
         "backgroundColor": "mediumvioletred",

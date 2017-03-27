@@ -7,14 +7,15 @@ import classNames from 'classnames';
 const FontIcon = props => {
   const {
     className: classNameProp,
+    color,
+    group,
     icon,
     size,
-    color,
     style,
     ...other
   } = props;
 
-  const className = classNames(`icon-${icon}`, classNameProp);
+  const className = classNames(`icon-${group}\:${icon}`, classNameProp);
 
   const mergedStyles = {
     ...{ fontSize: size, color: color },
@@ -24,21 +25,29 @@ const FontIcon = props => {
   return <span className={className} style={mergedStyles} {...other} />;
 };
 
+FontIcon.defaultProps = {
+  color: 'black',
+};
+
 FontIcon.propTypes = {
   /**
    * The css class name of the root element.
    */
   className: PropTypes.string,
   /**
-   * Font icon color
+   * Color
    */
   color: PropTypes.string,
   /**
-   * FontIcon name
+   * Icon group
    */
-  icon: PropTypes.string,
+  group: PropTypes.string.isRequired,
   /**
-   * FontIcon size
+   * Icon name
+   */
+  icon: PropTypes.string.isRequired,
+  /**
+   * Size
    */
   size: PropTypes.string,
   /**

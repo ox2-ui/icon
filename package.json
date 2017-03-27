@@ -18,7 +18,7 @@
     "docs:copy-to-public": "bash ./scripts/copy_docs.sh",
     "lint": "eslint src scripts && echo \"eslint: NO LINT ERRORS\"; exit 0",
     "prebuild": "npm run clean:build && npm run lint && npm run test",
-    "prettier": "prettier --single-quote --trailing-comma all --write \"{src,.storybook,scripts}/**/*.js\"",
+    "prettier": "prettier --print-width 60 --single-quote --trailing-comma all --write \"{src,.storybook,scripts}/**/*.js\"",
     "storybook": "start-storybook -p 55059 -s ./public",
     "test": "jest",
     "test:update": "yarn test -- -u"
@@ -26,9 +26,10 @@
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
     "@kadira/storybook-addon-options": "^1.0.1",
+    "@ox2/css-icons-hq-modules": "^0.0.1",
+    "@ox2/css-icons-ui": "^0.0.1",
     "@ox2/iframe": "^0.0.3",
     "@ox2/theming": "^1.0.0",
-    "@tapfuse/css-icons-linear": "^1.4.0",
     "@tapfuse/theme-spark": "^1.0.0",
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",

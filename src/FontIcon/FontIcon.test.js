@@ -9,6 +9,7 @@ it('renders correctly', () => {
   const wrapper = mount(
     <FontIcon
       color="#FFFFFF"
+      group="module"
       icon="users2"
       size="35px"
       style={{ backgroundColor: 'mediumvioletred', padding: '10px' }}

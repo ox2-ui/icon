@@ -1,6 +1,7 @@
 import { configure } from '@kadira/storybook';
 import { setOptions } from '@kadira/storybook-addon-options';
-import '@tapfuse/css-icons-linear';
+import '@ox2/css-icons-hq-modules';
+import '@ox2/css-icons-ui';
 import DynamicThemeLoader from '@ox2/theming/DynamicThemeLoader';
 import { default as theme } from '@tapfuse/theme-spark';
 

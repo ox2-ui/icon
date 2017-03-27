@@ -103,6 +103,14 @@
     webpack-dev-middleware "^1.6.0"
     webpack-hot-middleware "^2.13.2"
 
+"@ox2/css-icons-hq-modules@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/css-icons-hq-modules/-/css-icons-hq-modules-0.0.1.tgz#08eec373b2e62bce1a3951298210b29eee6c3147"
+
+"@ox2/css-icons-ui@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/css-icons-ui/-/css-icons-ui-0.0.1.tgz#44cc75cd6d2efc20735efd1e6a945dbc6ad42f4f"
+
 "@ox2/iframe@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@ox2/iframe/-/iframe-0.0.3.tgz#9c7142b77ca4ba2165486bc1002a9364be674572"
@@ -115,10 +123,6 @@
   resolved "https://registry.yarnpkg.com/@ox2/theming/-/theming-1.0.0.tgz#832152a46090af02c35dee463224f062c4bbf00d"
   dependencies:
     jss "^5.5.6"
-
-"@tapfuse/css-icons-linear@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@tapfuse/css-icons-linear/-/css-icons-linear-1.4.0.tgz#bd817289d946ddbca2d430ad2a6c5c50e2a964ff"
 
 "@tapfuse/theme-spark@^1.0.0":
   version "1.0.0"
