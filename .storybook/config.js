@@ -2,6 +2,9 @@ import { configure } from '@kadira/storybook';
 import {
   setOptions,
 } from '@kadira/storybook-addon-options';
+import '@ox2/css-icons-material';
+import '@ox2/css-icons-linear';
+import '@ox2/css-icons-moon';
 import '@ox2/css-icons-hq-modules';
 import '@ox2/css-icons-ui';
 import DynamicThemeLoader

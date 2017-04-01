@@ -29,6 +29,38 @@ storiesOf('FontIcon', module)
       size="35px"
     />
   ))
+  .add('icon packs', () => (
+    <div>
+      <div>
+        <FontIcon
+          color="#2CAF65"
+          group="moon"
+          icon="arrow-right"
+          size="35px"
+        />
+        <div>Moon</div>
+      </div>
+      <div>
+        <FontIcon
+          color="#2CAF65"
+          group="linear"
+          icon="couch"
+          size="35px"
+        />
+        <div>Linear</div>
+      </div>
+      <div>
+        <FontIcon
+          color="#2CAF65"
+          group="material"
+          icon="border_style"
+          size="35px"
+        />
+        <div>Material</div>
+      </div>
+    </div>
+
+  ))
   .add('style object', () => (
     <FontIcon
       color="#FFFFFF"

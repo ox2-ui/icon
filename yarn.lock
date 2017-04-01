@@ -107,6 +107,18 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@ox2/css-icons-hq-modules/-/css-icons-hq-modules-0.0.1.tgz#08eec373b2e62bce1a3951298210b29eee6c3147"
 
+"@ox2/css-icons-linear@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/css-icons-linear/-/css-icons-linear-0.0.1.tgz#dc39c96150c2b19d6b6a9a8182dfd7ad9c5bbf59"
+
+"@ox2/css-icons-material@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/css-icons-material/-/css-icons-material-0.0.1.tgz#924b7e73d5d4c785d383d85742a8d58a216f7018"
+
+"@ox2/css-icons-moon@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/css-icons-moon/-/css-icons-moon-0.0.1.tgz#64c9e802049ef693aef697c8d5df58849e0ddb3b"
+
 "@ox2/css-icons-ui@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@ox2/css-icons-ui/-/css-icons-ui-0.0.1.tgz#44cc75cd6d2efc20735efd1e6a945dbc6ad42f4f"
