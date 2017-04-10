@@ -34,9 +34,6 @@ const FontIcon = props => {
   );
 };
 
-FontIcon.defaultProps = {
-  color: 'black',
-};
 
 FontIcon.propTypes = {
   /**
