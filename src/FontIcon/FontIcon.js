@@ -17,12 +17,12 @@ const FontIcon = props => {
   } = props;
 
   const className = classNames(
-    `icon-${group}\:${icon}`,
+    `icon-${group}:${icon}`,
     classNameProp,
   );
 
   const mergedStyles = {
-    ...{ fontSize: size, color: color },
+    ...{ fontSize: size, color },
     ...style,
   };
 
@@ -33,6 +33,13 @@ const FontIcon = props => {
       {...other}
     />
   );
+};
+
+FontIcon.defaultProps = {
+  className: '',
+  color: '',
+  size: '',
+  style: {},
 };
 
 FontIcon.propTypes = {
