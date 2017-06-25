@@ -7,11 +7,11 @@ React component for font icon.
 
 ## Installation
 Install using [npm](http://npmjs.com):
-```
+```sh
 npm install @ox2/icon --save
 ```
 Install using [yarn](http://yarnpkg.com):
-```
+```sh
 yarn add @ox2/icon
 ```
 
@@ -24,7 +24,7 @@ import FontIcon from '@ox2/icon/FontIcon';
 ```
 
 ## Change Log
-Changes are tracked in the [CHANGELOG.md](https://github.com/ox2/icon/tree/master/CHANGELOG.md)
+Changes are tracked in the [CHANGELOG.md](https://github.com/ox2/icon/blob/master/CHANGELOG.md)
 
 ## License
-[MIT](https://github.com/ox2/icon/tree/master/LICENSE)
+[MIT](https://github.com/ox2/icon/blob/master/LICENSE)

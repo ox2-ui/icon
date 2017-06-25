@@ -1,35 +1,35 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import FontIcon from './FontIcon';
 
 storiesOf('FontIcon', module)
-  .add('default', () => (
-    <FontIcon group="module" icon="users2" />
-  ))
-  .add('colored', () => (
+  .add('default', () =>
+    <FontIcon group="module" icon="users2" />,
+  )
+  .add('colored', () =>
     <FontIcon
       color="#2CAF65"
       group="module"
       icon="users2"
-    />
-  ))
-  .add('colored & large', () => (
+    />,
+  )
+  .add('colored & large', () =>
     <FontIcon
       color="#2CAF65"
       group="module"
       icon="users2"
       size="35px"
-    />
-  ))
-  .add('ui group', () => (
+    />,
+  )
+  .add('ui group', () =>
     <FontIcon
       color="#2CAF65"
       group="ui"
-      icon="cross"
+      icon="move"
       size="35px"
-    />
-  ))
-  .add('icon packs', () => (
+    />,
+  )
+  .add('icon packs', () =>
     <div>
       <div>
         <FontIcon
@@ -58,10 +58,9 @@ storiesOf('FontIcon', module)
         />
         <div>Material</div>
       </div>
-    </div>
-
-  ))
-  .add('style object', () => (
+    </div>,
+  )
+  .add('style object', () =>
     <FontIcon
       color="#FFFFFF"
       group="module"
@@ -71,13 +70,13 @@ storiesOf('FontIcon', module)
         backgroundColor: 'mediumvioletred',
         padding: '10px',
       }}
-    />
-  ))
-  .add('themed', () => (
+    />,
+  )
+  .add('themed', () =>
     <FontIcon
       className="text-color:twitter"
       group="module"
       icon="users2"
       size="35px"
-    />
-  ));
+    />,
+  );
